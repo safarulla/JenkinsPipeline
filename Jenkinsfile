@@ -11,14 +11,14 @@ stages {
  stage("first stage") {
 
  steps{
- sh 'echo "hello world" '
+ sh 'echo "hello world stage1 dev branch" '
  }
 
    }
 stage("second stage") {
 
  steps{
- sh 'echo "hello world from second stage" '
+ sh 'echo "hello world from second stage dev barnch" '
  }
 
    }
