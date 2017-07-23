@@ -1,6 +1,6 @@
 job('DSL-Tutorial-1-Test') {
    scm {
-       git('git://github.com/quidryan/aws-sdk-test.git')
+       git('https://github.com/safarulla/JenkinsPipeline.git')
    }
    triggers {
        scm('H/15 * * * *')
