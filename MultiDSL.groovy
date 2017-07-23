@@ -6,6 +6,6 @@ job('DSL-Tutorial-1-Test') {
        scm('H/15 * * * *')
    }
    steps {
-       sh 'echo "Hello world"'
+      shell('echo Hello World!')
    }
 }
